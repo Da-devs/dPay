@@ -43,9 +43,9 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full border-b ${isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-background"}`}
+      className={`sticky top-0 pl-2 z-50 w-full border-b ${isScrolled ? "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60" : "bg-background"}`}
     >
-      <div className="container flex h-16 items-center justify-between">
+      <div className="mx-auto max-w-screen-2xl flex h-16 items-center justify-between">
         <div className="flex items-center gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2">
             <Wallet className="h-6 w-6 text-purple-600" />
